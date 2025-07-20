@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Senaya Tokat</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Senaya Tokat At ve Rahatla!</h1>
+
+    <input type="text" id="username" placeholder="Adını yaz ve tokatla..." />
+
+    <img id="face" src="sena.png" alt="Sena" onclick="slap()" />
+
+    <p>Toplam Tokat: <span id="counter">0</span></p>
+    <p id="message" class="msg"></p>
+
+    <div id="leaderboard"></div>
+  </div>
+
+  <audio id="slapSound" src="slap.mp3" preload="auto"></audio>
+  <script src="script.js"></script>
+</body>
+</html>
